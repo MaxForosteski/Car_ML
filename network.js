@@ -26,7 +26,7 @@ class NeuralNetwork{
                     amount
                 )
             }
-            for(let i = 0;i<level.weigths.length;i++){
+            for(let i = 0;i<level.weights.length;i++){
                 for(let j = 0;j < level.weights[i].length;j++){
                     level.weights[i][j] = lerp(
                         level.weights[i][j],
